@@ -40,7 +40,7 @@ Users should be able to:
 
 - Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/sassscss-mobilefirst-rwd-result-summary-component-sRBeLm4iA1)
 - Live Site URL: [My site live URL](https://centerdiv.pl/projects/others/frontendmentor/ResultSummaryComponent/result-summary-component.html)
-- Live Site URL: [Github live URL](https://szeri323.github.io/projects/others/frontendmentor/ResultSummaryComponent/result-summary-component.htmlm)
+- Live Site URL: [Github live URL](https://szeri323.github.io/projects/others/frontendmentor/ResultSummaryComponent/result-summary-component.html)
 
 ## My process
 
