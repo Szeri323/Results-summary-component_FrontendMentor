@@ -1,5 +1,6 @@
 const scores = document.querySelector('.scores');
 let score = ``;
+
 function numberToWords(num) {
     const words = [
         "", "one", "two", "three", "four"
@@ -19,10 +20,6 @@ async function loadJson() {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         let data = await response.json();
-        // Teraz możesz użyć zmiennej data, która zawiera dane JSON
-        console.log(data); // wyświetla dane w konsoli
-
-        console.log(data.length);
 
         for(let i =0; i <data.length; i++)
             score += `
@@ -37,13 +34,8 @@ async function loadJson() {
 
         scores.innerHTML += score;
 
-
-        data.forEach(item => {
-            console.log(item.category);
-        });
-        //console.log(JSON.parse(data));
     } catch (error) {
-        console.error('Błąd przy wczytywaniu JSON:', error);
+        console.error('Error reading JSON:', error);
     }
 }
 
